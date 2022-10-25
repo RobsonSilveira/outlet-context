@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "body": {
+    "lista_permissao": [
+      {
+        "empresa_id": 3,
+        "empresa_nome": "empresa 01",
+        "modulos": {
+          "pms": {
+            "produtos": [
+              {
+                "id": 7,
+                "id_permissoes_campos": 1,
+                "id_telas": 1,
+                "id_modulos": 5,
+                "visualizar": true,
+                "alterar": true,
+                "deletar": false,
+                "incluir": false
+              }
+            ]
+          },
+          "suc": {
+            "plataforma": [
+              {
+                "id": 8,
+                "id_permissoes_campos": 1,
+                "id_telas": 4,
+                "id_modulos": 6,
+                "visualizar": true,
+                "alterar": false,
+                "deletar": false,
+                "incluir": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "empresa_id": 5,
+        "empresa_nome": "empresa nova",
+        "modulos": {
+          "vanilla": {
+            "crons": [
+              {
+                "id": 9,
+                "id_permissoes_campos": 2,
+                "id_telas": 7,
+                "id_modulos": 8,
+                "visualizar": true,
+                "alterar": false,
+                "deletar": false,
+                "incluir": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
